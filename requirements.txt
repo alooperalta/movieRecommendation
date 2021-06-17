@@ -1,9 +1,6 @@
-pickle
-numpy
-pandas
-time
-asyncio
-ipywidgets
-sklearn
-scikit-learn
-random
+pickle==4.0
+numpy==1.20.1
+pandas==1.2.4
+time==3.8.8
+scikit-learn==0.24.1
+random==3.8.8
