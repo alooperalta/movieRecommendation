@@ -62,153 +62,153 @@ movies.describe()
 # In[7]:
 
 
-Action=movies.loc[movies['Action']==1]
-print(f'Total no. of Action movies: {len(Action)}')
-Action.head()
+# Action=movies.loc[movies['Action']==1]
+# print(f'Total no. of Action movies: {len(Action)}')
+# Action.head()
 
 
-# In[8]:
+# # In[8]:
 
 
-Adventure=movies.loc[movies['Adventure']==1]
-print(f'Total no. of Adventure movies: {len(Adventure)}')
-Adventure.head()
+# Adventure=movies.loc[movies['Adventure']==1]
+# print(f'Total no. of Adventure movies: {len(Adventure)}')
+# Adventure.head()
 
 
-# In[9]:
+# # In[9]:
 
 
-Animation=movies.loc[movies['Animation']==1]
-print(f'Total no. of Animation movies: {len(Animation)}')
-Animation.head()
+# Animation=movies.loc[movies['Animation']==1]
+# print(f'Total no. of Animation movies: {len(Animation)}')
+# Animation.head()
 
 
-# In[87]:
+# # In[87]:
 
 
-Children=movies.loc[movies['Children']==1]
-print(f'Total no. of Children movies: {len(Children)}')
-Children.head()
+# Children=movies.loc[movies['Children']==1]
+# print(f'Total no. of Children movies: {len(Children)}')
+# Children.head()
 
 
-# In[86]:
+# # In[86]:
 
 
-Comedy=movies.loc[movies['Comedy']==1]
-print(f'Total no. of Comedy movies: {len(Comedy)}')
-Comedy.head()
+# Comedy=movies.loc[movies['Comedy']==1]
+# print(f'Total no. of Comedy movies: {len(Comedy)}')
+# Comedy.head()
 
 
-# In[12]:
+# # In[12]:
 
 
-Crime=movies.loc[movies['Crime']==1]
-print(f'Total no. of Crime movies: {len(Crime)}')
-Crime.head()
+# Crime=movies.loc[movies['Crime']==1]
+# print(f'Total no. of Crime movies: {len(Crime)}')
+# Crime.head()
 
 
-# In[85]:
+# # In[85]:
 
 
-Documentary=movies.loc[movies['Documentary']==1]
-print(f'Total no. of Documentary movies: {len(Documentary)}')
-Documentary.head()
+# Documentary=movies.loc[movies['Documentary']==1]
+# print(f'Total no. of Documentary movies: {len(Documentary)}')
+# Documentary.head()
 
 
-# In[84]:
+# # In[84]:
 
 
-Drama=movies.loc[movies['Drama']==1]
-print(f'Total no. of Drama movies: {len(Drama)}')
-Drama.head()
+# Drama=movies.loc[movies['Drama']==1]
+# print(f'Total no. of Drama movies: {len(Drama)}')
+# Drama.head()
 
 
-# In[83]:
+# # In[83]:
 
 
-Fantasy=movies.loc[movies['Fantasy']==1]
-print(f'Total no. of Fantasy movies: {len(Fantasy)}')
-Fantasy.head()
+# Fantasy=movies.loc[movies['Fantasy']==1]
+# print(f'Total no. of Fantasy movies: {len(Fantasy)}')
+# Fantasy.head()
 
 
-# In[16]:
+# # In[16]:
 
 
-Film_Noir=movies.loc[movies['Film-Noir']==1]
-print(f'Total no. of Film-Noir movies: {len(Film_Noir)}')
-Film_Noir.head()
+# Film_Noir=movies.loc[movies['Film-Noir']==1]
+# print(f'Total no. of Film-Noir movies: {len(Film_Noir)}')
+# Film_Noir.head()
 
 
-# In[17]:
+# # In[17]:
 
 
-Horror=movies.loc[movies['Horror']==1]
-print(f'Total no. of Horror movies: {len(Horror)}')
-Horror.head()
+# Horror=movies.loc[movies['Horror']==1]
+# print(f'Total no. of Horror movies: {len(Horror)}')
+# Horror.head()
 
 
-# In[18]:
+# # In[18]:
 
 
-IMAX=movies.loc[movies['IMAX']==1]
-print(f'Total no. of IMAX movies: {len(IMAX)}')
-IMAX.head()
+# IMAX=movies.loc[movies['IMAX']==1]
+# print(f'Total no. of IMAX movies: {len(IMAX)}')
+# IMAX.head()
 
 
-# In[19]:
+# # In[19]:
 
 
-Musical=movies.loc[movies['Musical']==1]
-print(f'Total no. of Musical movies: {len(Musical)}')
-Musical.head()
+# Musical=movies.loc[movies['Musical']==1]
+# print(f'Total no. of Musical movies: {len(Musical)}')
+# Musical.head()
 
 
-# In[20]:
+# # In[20]:
 
 
-Mystery=movies.loc[movies['Mystery']==1]
-print(f'Total no. of Action movies: {len(Mystery)}')
-Mystery.head()
+# Mystery=movies.loc[movies['Mystery']==1]
+# print(f'Total no. of Action movies: {len(Mystery)}')
+# Mystery.head()
 
 
-# In[82]:
+# # In[82]:
 
 
-Romance=movies.loc[movies['Romance']==1]
-print(f'Total no. of Romance movies: {len(Romance)}')
-Romance.head()
+# Romance=movies.loc[movies['Romance']==1]
+# print(f'Total no. of Romance movies: {len(Romance)}')
+# Romance.head()
 
 
-# In[22]:
+# # In[22]:
 
 
-Sci_fi=movies.loc[movies['Sci-Fi']==1]
-print(f'Total no. of Sci-Fi movies: {len(Sci_fi)}')
-Action.head()
+# Sci_fi=movies.loc[movies['Sci-Fi']==1]
+# print(f'Total no. of Sci-Fi movies: {len(Sci_fi)}')
+# Action.head()
 
 
-# In[23]:
+# # In[23]:
 
 
-Thriller=movies.loc[movies['Thriller']==1]
-print(f'Total no. of Thriller movies: {len(Thriller)}')
-Thriller.head()
+# Thriller=movies.loc[movies['Thriller']==1]
+# print(f'Total no. of Thriller movies: {len(Thriller)}')
+# Thriller.head()
 
 
-# In[24]:
+# # In[24]:
 
 
-War=movies.loc[movies['War']==1]
-print(f'Total no. of War movies: {len(War)}')
-War.head()
+# War=movies.loc[movies['War']==1]
+# print(f'Total no. of War movies: {len(War)}')
+# War.head()
 
 
-# In[25]:
+# # In[25]:
 
 
-Western=movies.loc[movies['Western']==1]
-print(f'Total no. of Western movies: {len(Western)}')
-Western.head()
+# Western=movies.loc[movies['Western']==1]
+# print(f'Total no. of Western movies: {len(Western)}')
+# Western.head()
 
 
 # In[ ]:
