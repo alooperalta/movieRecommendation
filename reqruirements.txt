@@ -1,7 +1,7 @@
 pickle
 numpy
 pandas
-matplotlib
+matplotlib.pyplot
 seaborn
 time
 asyncio
