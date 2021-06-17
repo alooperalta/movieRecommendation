@@ -4,5 +4,6 @@ pandas
 time
 asyncio
 ipywidgets
+sklearn
 scikit-learn
 random
