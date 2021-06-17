@@ -275,7 +275,7 @@ def getRecom(x):
 
 def model():        
         o = movie_title
-        opt = pd.concat([pd.Series(['Select an Option']),o])
+        # opt = pd.concat([pd.Series(['Select an Option']),o])
 #         dropdown = widgets.Dropdown(
 #             options= opt,
 #             description='Chose your favourite Movie:',
@@ -288,7 +288,7 @@ def model():
 #             if(dropdown.value!='Select an Option'):
 #                 getRecom(dropdown.value)
 #         btn.on_click(btn_eventhandler)
-        option = st.selectbox('Select your favourite movie',opt)
+        option = st.selectbox('Select your favourite movie',o)
         getRecom(option)
 
 
